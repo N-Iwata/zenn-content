@@ -101,7 +101,7 @@ export default UserList;
 今度はTodoをページネーションで取得したい場合です。
 ページ番号をステートで管理して、欲しいページのTodoデータを取得しています。
 `onNewData`のところで、現在のTodoデータに新しいTodoデータを連結しています。
-普通に次のページの分だけ表示する場合は`onNewData: (currTodos, newTodos) => newTodos,のように`そのまま新しい取得データにしてやればいけます。
+普通に次のページの分だけ表示する場合は`onNewData: (currTodos, newTodos) => newTodos,`のようにそのまま新しい取得データにしてやればいけます。
 
 ```js
 import React, { useState } from "react";
