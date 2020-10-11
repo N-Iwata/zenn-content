@@ -28,7 +28,7 @@ $npm install use-http --save
 
 ## 基本的な使用法
 
-まずは基本的な使用法で、[JSONPlaceholder](https://jsonplaceholder.typicode)から`users`データをとってきて`username`を表示してみます。
+まずは基本的な使用法で、[JSONPlaceholder](https://jsonplaceholder.typicode.com/)から`users`データをとってきて`username`を表示してみます。
 
 `useFetch`の最後に渡す`[]`でマウント時に実行されるようになります。
 
