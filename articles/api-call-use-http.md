@@ -10,10 +10,14 @@ published: true
 
 この記事は[Developer Roadmaps](https://roadmap.sh/react)で2020年のReactロードマップの中で作者がおススメしている（前に2020年のを見た時なかったような気がする・・・？）、`use-http`というHooksベースで実装されているAPIコールのパッケージを調べてみたら良さそうだったので試してみたまとめです。
 
-
 [公式ドキュメントはこちら](https://use-http.com/)
 [公式のGitHubのリポジトリはこちら](https://github.com/ava/use-http)
-[CodeSandboxでちょっと試したコードはこちら](https://codesandbox.io/s/react-use-http-92k4l?file=/src/UserList2.jsx:0-523)
+
+## デモ
+
+以下のCodeSandboxを参照ください。
+
+@[codesandbox](https://codesandbox.io/embed/react-use-http-92k4l?fontsize=14&hidenavigation=1&theme=dark)
 
 ## 何ができるの❓
 
@@ -221,3 +225,6 @@ function App() {
 
 他にも様々な機能があるので、公式ドキュメントを参照してみてください。
 個人的にはApollo Clientを勉強中だったので、こちらもしっかり勉強する必要があると思いました。
+
+
+
