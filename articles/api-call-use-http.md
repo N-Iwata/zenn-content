@@ -36,7 +36,7 @@ $npm install use-http --save
 
 `useFetch`の最後に渡す`[]`でマウント時に実行されるようになります。
 
-```js
+```js:UserList2.jsx
 import React from "react";
 import useFetch from "use-http";
 
@@ -65,7 +65,7 @@ export default UserList;
 `useState`などで状態を管理したいときは、`useEffect`でマウントされた時に`get`を使ってデータを取得しにいきます。
 `await get("/users");`でデータ取得できます。
 
-```js
+```js:UserList1.jsx
 import React, { useState, useEffect, useCallback } from "react";
 import useFetch from "use-http";
 
@@ -107,7 +107,7 @@ export default UserList;
 `onNewData`のところで、現在のTodoデータに新しいTodoデータを連結しています。
 普通に次のページの分だけ表示する場合は`onNewData: (currTodos, newTodos) => newTodos,`のようにそのまま新しい取得データにしてやればいけます。
 
-```js
+```js:TodoList.jsx
 import React, { useState } from "react";
 import useFetch from "use-http";
 
@@ -139,8 +139,8 @@ const TodoList = () => {
 };
 export default TodoList;
 ```
-呼び元の`App.jsx`
-```js
+
+```js:App.jsx
 import React from "react";
 import { Provider } from "use-http";
 import TodoList from "./TodoList";
