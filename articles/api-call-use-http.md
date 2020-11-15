@@ -1,6 +1,6 @@
 ---
-title: "use-httpというAPIコールのライブラリが良さそうなので試してみた"
-emoji: "💻"
+title: "【React Hooks】use-httpというAPIコールのライブラリが良さそうなので試してみた"
+emoji: "🀄"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [React, useHttp, API, GraphQL]
 published: true
@@ -67,7 +67,7 @@ export default UserList;
 
 ```js:UserList1.jsx
 import React, { useState, useEffect, useCallback } from "react";
-import useFetch from "use-http";
+import useFetch from "use-http"
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
