@@ -14,4 +14,3 @@ $ npx zenn preview
 ```
 $ npm install zenn-cli@latest
 ```
-t
